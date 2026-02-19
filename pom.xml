@@ -107,7 +107,7 @@
       <scope>test</scope>
     </dependency>
     <!-- Force testcontainers version until strimzi-test-container is upgraded  -->
-    <!-- Otherwise, the build fails on CI  -->
+    <!-- Otherwise, the build fails on CI servers  -->
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>testcontainers</artifactId>
